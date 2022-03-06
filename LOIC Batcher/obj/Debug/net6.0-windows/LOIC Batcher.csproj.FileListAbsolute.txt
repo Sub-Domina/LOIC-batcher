@@ -1,0 +1,18 @@
+C:\Users\Dafna\source\repos\LOIC Batcher\LOIC Batcher\bin\Debug\net6.0-windows\LOIC Batcher.exe
+C:\Users\Dafna\source\repos\LOIC Batcher\LOIC Batcher\bin\Debug\net6.0-windows\LOIC Batcher.deps.json
+C:\Users\Dafna\source\repos\LOIC Batcher\LOIC Batcher\bin\Debug\net6.0-windows\LOIC Batcher.runtimeconfig.json
+C:\Users\Dafna\source\repos\LOIC Batcher\LOIC Batcher\bin\Debug\net6.0-windows\LOIC Batcher.dll
+C:\Users\Dafna\source\repos\LOIC Batcher\LOIC Batcher\bin\Debug\net6.0-windows\LOIC Batcher.pdb
+C:\Users\Dafna\source\repos\LOIC Batcher\LOIC Batcher\obj\Debug\net6.0-windows\LOIC Batcher.csproj.AssemblyReference.cache
+C:\Users\Dafna\source\repos\LOIC Batcher\LOIC Batcher\obj\Debug\net6.0-windows\LOIC_Batcher.Form1.resources
+C:\Users\Dafna\source\repos\LOIC Batcher\LOIC Batcher\obj\Debug\net6.0-windows\LOIC Batcher.csproj.GenerateResource.cache
+C:\Users\Dafna\source\repos\LOIC Batcher\LOIC Batcher\obj\Debug\net6.0-windows\LOIC Batcher.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Dafna\source\repos\LOIC Batcher\LOIC Batcher\obj\Debug\net6.0-windows\LOIC Batcher.AssemblyInfoInputs.cache
+C:\Users\Dafna\source\repos\LOIC Batcher\LOIC Batcher\obj\Debug\net6.0-windows\LOIC Batcher.AssemblyInfo.cs
+C:\Users\Dafna\source\repos\LOIC Batcher\LOIC Batcher\obj\Debug\net6.0-windows\LOIC Batcher.csproj.CoreCompileInputs.cache
+C:\Users\Dafna\source\repos\LOIC Batcher\LOIC Batcher\obj\Debug\net6.0-windows\LOIC Batcher.dll
+C:\Users\Dafna\source\repos\LOIC Batcher\LOIC Batcher\obj\Debug\net6.0-windows\refint\LOIC Batcher.dll
+C:\Users\Dafna\source\repos\LOIC Batcher\LOIC Batcher\obj\Debug\net6.0-windows\LOIC Batcher.pdb
+C:\Users\Dafna\source\repos\LOIC Batcher\LOIC Batcher\obj\Debug\net6.0-windows\LOIC Batcher.genruntimeconfig.cache
+C:\Users\Dafna\source\repos\LOIC Batcher\LOIC Batcher\obj\Debug\net6.0-windows\ref\LOIC Batcher.dll
+C:\Users\Dafna\source\repos\LOIC Batcher\LOIC Batcher\obj\Debug\net6.0-windows\LOIC_Batcher.Properties.Resources.resources

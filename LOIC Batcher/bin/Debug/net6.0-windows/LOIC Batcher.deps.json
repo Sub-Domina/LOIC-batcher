@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "LOIC Batcher/1.0.0": {
+        "runtime": {
+          "LOIC Batcher.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "LOIC Batcher/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
