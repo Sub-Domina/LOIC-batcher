@@ -1,0 +1,398 @@
+# # Ігнорувати тимчасові файли Visual Studio, результати збірки та
+# # файлів, створених популярними доповненнями Visual Studio.
+# #
+# # Отримати останні з https://github.com/github/gitignore/blob/main/VisualStudio.gitignore
+
+# Файли, що стосуються користувача
+* .rsuser
+* .suo
+* .користувач
+* .userosscache
+* .sln.docстани
+
+# файли, специфічні для користувача (MonoDevelop/Xamarin Studio)
+* .userprefs
+
+# Моно, автоматично створені файли
+mono_crash. *
+
+# Побудуйте результати
+[ Dd ] ebug /
+[ Dd ] ebugPublic /
+[ Rr ] elease /
+[ Rr ] виходить /
+x64 /
+x86 /
+[ Ww ][ Ii ][ Nn ] 32 /
+[ Aa ][ Rr ][ Mm ]/
+[ Aa ][ Rr ][ Mm ] 64 /
+буд. /
+[ Bb ] в /
+[ Oo ] bj /
+[ Ll ] og /
+[ Ll ] ogs /
+
+# Каталог кешу/параметрів Visual Studio 2015/2017
+.vs /
+# Розкоментуйте, якщо у вас є завдання, які створюють статичні файли проекту в wwwroot
+# wwwroot/
+
+# Автоматично створені файли Visual Studio 2017
+Згенеровано \ Файли /
+
+# Результати тесту MSTest
+[ Tt ] est [ Rr ] esult * /
+[ Bb ] uild [ Ll ] og. *
+
+# NUодиниця
+* .VisualState.xml
+TestResult.xml
+nunit- * .xml
+
+# Створення результатів проекту ATL
+[ Dd ] ebugPS /
+[ Rr ] eleasePS /
+dlldata.c
+
+# Результати тесту
+BenchmarkDotNet.Artefacts /
+
+# .NET Core
+project.lock.json
+project.fragment.lock.json
+артефакти /
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# StyleCop
+StyleCopReport.xml
+
+# Файли, створені Visual Studio
+* _i.c
+* _p.c
+* _h.h
+* .ilk
+* .meta
+* .obj
+* .iobj
+* .pch
+* .pdb
+* .ipdb
+* .pgc
+* .pgd
+* .rsp
+* .sbr
+* .tlb
+* .tli
+* .tlh
+* .tmp
+* .tmp_proj
+* _wpftmp.csproj
+* .log
+* .tlog
+* .vspscc
+* .vssscc
+.будує
+* .pidb
+* .svclog
+* .scc
+
+# Тестові файли Chutzpah
+_Chutzpah *
+
+# Файли кешу Visual C++
+ipch /
+* .aps
+* .ncb
+* .opendb
+* .opensdf
+* .sdf
+* .cachefile
+* .VC.db
+* .VC.VC.opendb
+
+# Профайлер Visual Studio
+* .psess
+* .vsp
+* .vspx
+* .sap
+
+# Файли трасування Visual Studio
+* .e2e
+
+# Локальна робоча область TFS 2012
+$tf /
+
+# Набір інструментів автоматизації керівництва
+* .gpState
+
+# ReSharper — це надбудова для кодування .NET
+_ReSharper * /
+* . [ Rr ] e [ Ss ] арпер
+* .DotSettings.user
+
+# TeamCity — це надбудова для збірки
+_TeamCity *
+
+# DotCover — це інструмент покриття коду
+* .dotCover
+
+# AxoCover — це інструмент покриття коду
+.axoCover / *
+! .axoCover / settings.json
+
+# Coverlet — це безкоштовний міжплатформний інструмент покриття коду
+покриття * .json
+покриття * .xml
+покриття * .info
+
+# Результати покриття коду Visual Studio
+* .покриття
+* .coveragexml
+
+# NCrunch
+_NCrunch_ *
+. * хрускіт * .local.xml
+nCrunchTemp_ *
+
+# Могутній лось
+* .мм *
+AutoTest.Net /
+
+# Веб-верстак (sass)
+.sass-cache /
+
+# Вихідна папка Installshield
+[ Ee ] xpress /
+
+# DocProject — це надбудова для створення документації
+DocProject / buildhelp /
+DocProject / Довідка / * .HxT
+DocProject / Довідка / * .HxC
+DocProject / Довідка / * .hhc
+DocProject / Довідка / * .hhk
+DocProject / Довідка / * .hhp
+DocProject / Довідка / Html2
+DocProject / Довідка / html
+
+# Каталог клацніть один раз
+опублікувати /
+
+# Опублікувати веб-вихід
+* . [ Pp ] ublish.xml
+* .azurePubxml
+# Примітка. Прокоментуйте наступний рядок, якщо ви хочете перевірити налаштування веб-розгортання,
+# , але рядки підключення до бази даних (з потенційними паролями) будуть незашифрованими
+* .pubxml
+* .publishproj
+
+# Параметри публікації веб-програми Microsoft Azure. Прокоментуйте наступний рядок, якщо хочете
+# перевірте налаштування публікації веб-програми Azure, але містить конфіденційну інформацію
+# у цих сценаріях буде незашифрованим
+PublishScripts /
+
+# Пакети NuGet
+* .nupkg
+# Пакети символів NuGet
+* .snupkg
+# Папку packages можна ігнорувати через відновлення пакетів
+** /[ Pp ] ackages / *
+# за винятком build/, який використовується як ціль MSBuild.
+! ** /[ Pp ] ackages / build /
+# Розкоментуйте, якщо необхідно, але зазвичай він буде відновлено, коли буде потрібно
+# !**/[Pp]ackages/repositories.config
+# Файли project.json NuGet версії 3 створюють більше ігноруваних файлів
+* .nuget.props
+* .nuget.targets
+
+# Вихідні дані збірки Microsoft Azure
+csx /
+* .build.csdef
+
+# Емулятор Microsoft Azure
+ecf /
+rcf /
+
+# Каталоги та файли пакетів програм Магазину Windows
+Пакети додатків /
+BundleArtefacts /
+Package.StoreAssociation.xml
+_pkginfo.txt
+* .прибл
+* .appxbundle
+* .appxupload
+
+# Файли кешу Visual Studio
+Можна проігнорувати # файли, що закінчуються на .cache
+* . [ Cc ] біль
+# але слідкуйте за каталогами, що закінчуються на .cache
+! ?* . [ Копія ] біль /
+
+# Інші
+ClientBin /
+~$ *
+* ~
+* .dbmdl
+* .dbproj.schemaview
+* .jfm
+* .pfx
+* .publishsettings
+orleans.codegen.cs
+
+# Включення файлів із сильними іменами може становити загрозу безпеці
+# (https://github.com/github/gitignore/pull/2483#issue-259490424)
+# *.snk
+
+# Оскільки є кілька робочих процесів, розкоментуйте наступний рядок, щоб ігнорувати bower_components
+# (https://github.com/github/gitignore/pull/1529#issuecomment-104372622)
+# bewer_components/
+
+# проекти RIA/Silverlight
+Generated_Code /
+
+# Резервне копіювання та звіт про файли з перетворення старого файлу проекту
+# до новішої версії Visual Studio. Резервні файли не потрібні,
+# тому що у нас є git ;-)
+_UpgradeReport_Files /
+Резервне копіювання * /
+UpgradeLog * .XML
+UpgradeLog * .htm
+ServiceFabricBackup /
+* .rptproj.bak
+
+# файли SQL Server
+* .mdf
+* .ldf
+* .ndf
+
+# Проекти Business Intelligence
+* .rdl.data
+* .bim.layout
+* .bim_ * .налаштування
+* .rptproj.rsuser
+* - [ Bb ] ackup.rdl
+* - [ Bb ] ackup  ( [ 0-9 ] ).rdl
+* - [ Bb ] ackup  ( [ 0-9 ][ 0-9 ] ).rdl
+
+# Підробки Microsoft
+FakesAssemblies /
+
+# Файл налаштувань плагіна GhostDoc
+* .GhostDoc.xml
+
+# Інструменти Node.js для Visual Studio
+.ntvs_analysis.dat
+node_modules /
+
+# Журнал складання Visual Studio 6
+* .plg
+
+# Файл параметрів робочої області Visual Studio 6
+* .опт
+
+# Автоматично створений файл робочої області Visual Studio 6 (містить, які файли були відкриті тощо)
+* .vbw
+
+# Автоматично згенерований файл проекту Visual Studio 6 (містить, які файли були відкриті тощо)
+* .vbp
+
+# Робоча область Visual Studio 6 і файл проекту (робочі файли проекту, що містять файли для включення в проект)
+* .dsw
+* .dsp
+
+# Технічні файли Visual Studio 6
+* .ncb
+* .aps
+
+# Висновок збірки Visual Studio LightSwitch
+** / * .HTMLClient / GeneratedArtefacts
+** / * .DesktopClient / GeneratedArtifacts
+** / * .DesktopClient / ModelManifest.xml
+** / * .Server / GeneratedArtefacts
+** / * .Server / ModelManifest.xml
+_Pvt_Extensions
+
+# Менеджер залежностей пакетів
+.paket / paket.exe
+пакет-файли /
+
+# FAKE - F# Make
+.fake /
+
+# Персональні налаштування CodeRush
+.cr / особистий
+
+# Інструменти Python для Visual Studio (PTVS)
+__pycache__ /
+* .pyc
+
+# Cake - розкоментуйте, якщо ви ним користуєтеся
+# інструменти/**
+# !tools/packages.config
+
+# Tabs Studio
+* .tss
+
+# Конфігураційний файл Telerik JustMock
+* .jmconfig
+
+# Вихід збірки BizTalk
+* .btp.cs
+* .btm.cs
+* .odx.cs
+* .xsd.cs
+
+# Результати аналізу інтерфейсу OpenCover
+OpenCover /
+
+# Вихід локального запуску Azure Stream Analytics
+ASALocalRun /
+
+# Двійковий і структурований журнал MSBuild
+* .binlog
+
+# Файл конфігурації налагоджувача графічного процесора NVidia Nsight
+* .nvuser
+
+# Робоча папка MFractors (інструмент підвищення продуктивності Xamarin).
+.mfractor /
+
+# Локальна історія для Visual Studio
+.localhistory /
+
+# Файли історії Visual Studio (VSHistory).
+.vshistory /
+
+# Тимчасова база даних BeatPulse Healthcheck
+healthchecksdb
+
+# Папка резервного копіювання для інструмента конвертування довідкових пакетів у Visual Studio 2017
+MigrationBackup /
+
+# Робоча папка Ionide (кросплатформна F# VS Code tools).
+.іонід /
+
+# Fody - автоматично згенерована схема XML
+FodyWeavers.xsd
+
+# Файли VS Code для тих, хто працює з кількома інструментами
+.vscode / *
+! .vscode / settings.json
+! .vscode / tasks.json
+! .vscode / launch.json
+! .vscode / extensions.json
+* .code-workspace
+
+# Локальна історія для коду Visual Studio
+.історія /
+
+# Файли інсталятора Windows із вихідних даних збірки
+* .таксі
+* .msi
+* .msix
+* .msm
+* .msp
+
+# JetBrains Rider
+* .sln.iml
